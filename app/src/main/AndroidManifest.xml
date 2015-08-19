@@ -23,6 +23,10 @@
         <activity
             android:name=".SiteActivity"
             android:label="@string/title_activity_site" >
+            <intent-filter>
+                <action android:name="home_site_act" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
         </activity>
     </application>
 
